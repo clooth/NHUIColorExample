@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EE17BA17183D51004C102F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE17B917183D51004C102F /* UIKit.framework */; };
+		03EE17BC17183D51004C102F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE17BB17183D51004C102F /* Foundation.framework */; };
+		03EE17BE17183D51004C102F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE17BD17183D51004C102F /* CoreGraphics.framework */; };
+		03EE17C417183D51004C102F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03EE17C217183D51004C102F /* InfoPlist.strings */; };
+		03EE17C617183D51004C102F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE17C517183D51004C102F /* main.m */; };
+		03EE17CA17183D51004C102F /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE17C917183D51004C102F /* NHAppDelegate.m */; };
+		03EE17CC17183D51004C102F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE17CB17183D51004C102F /* Default.png */; };
+		03EE17CE17183D51004C102F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE17CD17183D51004C102F /* Default@2x.png */; };
+		03EE17D017183D51004C102F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE17CF17183D51004C102F /* Default-568h@2x.png */; };
+		03EE17DC171849CC004C102F /* UIColor+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE17D717183D70004C102F /* UIColor+Manipulate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03EE17B617183D51004C102F /* NHUIColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHUIColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EE17B917183D51004C102F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03EE17BB17183D51004C102F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EE17BD17183D51004C102F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03EE17C117183D51004C102F /* NHUIColorExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHUIColorExample-Info.plist"; sourceTree = "<group>"; };
+		03EE17C317183D51004C102F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03EE17C517183D51004C102F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EE17C717183D51004C102F /* NHUIColorExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHUIColorExample-Prefix.pch"; sourceTree = "<group>"; };
+		03EE17C817183D51004C102F /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		03EE17C917183D51004C102F /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		03EE17CB17183D51004C102F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03EE17CD17183D51004C102F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03EE17CF17183D51004C102F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03EE17D617183D70004C102F /* UIColor+Manipulate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Manipulate.h"; sourceTree = "<group>"; };
+		03EE17D717183D70004C102F /* UIColor+Manipulate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Manipulate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EE17B317183D51004C102F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE17BA17183D51004C102F /* UIKit.framework in Frameworks */,
+				03EE17BC17183D51004C102F /* Foundation.framework in Frameworks */,
+				03EE17BE17183D51004C102F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EE17AD17183D51004C102F = {
+			isa = PBXGroup;
+			children = (
+				03EE17BF17183D51004C102F /* NHUIColorExample */,
+				03EE17B817183D51004C102F /* Frameworks */,
+				03EE17B717183D51004C102F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EE17B717183D51004C102F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EE17B617183D51004C102F /* NHUIColorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EE17B817183D51004C102F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EE17B917183D51004C102F /* UIKit.framework */,
+				03EE17BB17183D51004C102F /* Foundation.framework */,
+				03EE17BD17183D51004C102F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EE17BF17183D51004C102F /* NHUIColorExample */ = {
+			isa = PBXGroup;
+			children = (
+				03EE17DB1718485C004C102F /* Categories */,
+				03EE17C817183D51004C102F /* NHAppDelegate.h */,
+				03EE17C917183D51004C102F /* NHAppDelegate.m */,
+				03EE17C017183D51004C102F /* Supporting Files */,
+			);
+			path = NHUIColorExample;
+			sourceTree = "<group>";
+		};
+		03EE17C017183D51004C102F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EE17C117183D51004C102F /* NHUIColorExample-Info.plist */,
+				03EE17C217183D51004C102F /* InfoPlist.strings */,
+				03EE17C517183D51004C102F /* main.m */,
+				03EE17C717183D51004C102F /* NHUIColorExample-Prefix.pch */,
+				03EE17CB17183D51004C102F /* Default.png */,
+				03EE17CD17183D51004C102F /* Default@2x.png */,
+				03EE17CF17183D51004C102F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EE17DB1718485C004C102F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				03EE17D617183D70004C102F /* UIColor+Manipulate.h */,
+				03EE17D717183D70004C102F /* UIColor+Manipulate.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EE17B517183D51004C102F /* NHUIColorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EE17D317183D51004C102F /* Build configuration list for PBXNativeTarget "NHUIColorExample" */;
+			buildPhases = (
+				03EE17B217183D51004C102F /* Sources */,
+				03EE17B317183D51004C102F /* Frameworks */,
+				03EE17B417183D51004C102F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHUIColorExample;
+			productName = NHUIColorExample;
+			productReference = 03EE17B617183D51004C102F /* NHUIColorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EE17AE17183D51004C102F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nico Hämäläinen";
+			};
+			buildConfigurationList = 03EE17B117183D51004C102F /* Build configuration list for PBXProject "NHUIColorExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EE17AD17183D51004C102F;
+			productRefGroup = 03EE17B717183D51004C102F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EE17B517183D51004C102F /* NHUIColorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EE17B417183D51004C102F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE17C417183D51004C102F /* InfoPlist.strings in Resources */,
+				03EE17CC17183D51004C102F /* Default.png in Resources */,
+				03EE17CE17183D51004C102F /* Default@2x.png in Resources */,
+				03EE17D017183D51004C102F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EE17B217183D51004C102F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE17C617183D51004C102F /* main.m in Sources */,
+				03EE17CA17183D51004C102F /* NHAppDelegate.m in Sources */,
+				03EE17DC171849CC004C102F /* UIColor+Manipulate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03EE17C217183D51004C102F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EE17C317183D51004C102F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EE17D117183D51004C102F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03EE17D217183D51004C102F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EE17D417183D51004C102F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHUIColorExample/NHUIColorExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NHUIColorExample/NHUIColorExample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03EE17D517183D51004C102F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHUIColorExample/NHUIColorExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NHUIColorExample/NHUIColorExample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EE17B117183D51004C102F /* Build configuration list for PBXProject "NHUIColorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE17D117183D51004C102F /* Debug */,
+				03EE17D217183D51004C102F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EE17D317183D51004C102F /* Build configuration list for PBXNativeTarget "NHUIColorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE17D417183D51004C102F /* Debug */,
+				03EE17D517183D51004C102F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EE17AE17183D51004C102F /* Project object */;
+}
